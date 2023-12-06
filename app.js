@@ -95,7 +95,7 @@ app.post('/signup', async (req, res) => {
         return res.send('<div id="error-message">Something went wrong, please try later</div>');
     }
 
-    return res.send('<div id="success-message">User signed up successfully</div>');
+    return res.send('<div id="success-message">User is Registered</div>');
 });
 
 app.listen(port, () => {
